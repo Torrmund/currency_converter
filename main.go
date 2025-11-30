@@ -31,4 +31,4 @@ func getUserInput() (sourceCurrency string, amountCurrency float64, targetCurren
 	return
 }
 
-func currencyConversion() {}
+func currencyConversion(sourceCurrency string, amountCurrency float64, targetCurrency string) {}
